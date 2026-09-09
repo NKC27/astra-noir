@@ -2,6 +2,8 @@
 
 > Luxury fragrances for a higher consciousness.
 
+> **Work in progress:** This portfolio project is actively being refined. Content, imagery, product details, and deployment configuration may change as the project develops.
+
 **Live preview:** [temporary-agile-ocarina-dafvy99.vercel.app](https://temporary-agile-ocarina-dafvy99.vercel.app)
 
 Astra Noir is a fictional luxury fragrance brand and portfolio project built around a demanding visual brief: cinematic imagery, a near-black palette, fast image delivery, and a complete browsing experience for a growing product collection.
