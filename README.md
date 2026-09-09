@@ -2,7 +2,7 @@
 
 > Luxury fragrances for a higher consciousness.
 
-**Live preview:** [astra-noir.vercel.app](https://astra-noir.vercel.app)
+**Live preview:** [temporary-agile-ocarina-dafvy99.vercel.app](https://temporary-agile-ocarina-dafvy99.vercel.app)
 
 Astra Noir is a fictional luxury fragrance brand and portfolio project built around a demanding visual brief: cinematic imagery, a near-black palette, fast image delivery, and a complete browsing experience for a growing product collection.
 
@@ -22,8 +22,8 @@ The project began as a single-page concept and evolved into a statically rendere
 
 ## Screenshots
 
-| Collection grid | Product detail |
-| --- | --- |
+| Collection grid                                       | Product detail                                           |
+| ----------------------------------------------------- | -------------------------------------------------------- |
 | ![Collection grid](public/screenshots/collection.png) | ![Product detail](public/screenshots/product-detail.png) |
 
 ## Tech stack
@@ -83,10 +83,10 @@ Astra Noir is a fictional brand. Nothing is for sale and no payment is taken. Th
 
 ## Deployment
 
-The project is configured for Vercel deployment. Set `NEXT_PUBLIC_SITE_URL` to the deployed origin so canonical URLs, Open Graph metadata, sitemap entries, and JSON-LD use the production URL:
+The project is configured for Vercel deployment. The current anonymous preview is temporary and expires unless claimed. Set `NEXT_PUBLIC_SITE_URL` to the deployed origin so canonical URLs, Open Graph metadata, sitemap entries, and JSON-LD use the production URL:
 
 ```bash
-NEXT_PUBLIC_SITE_URL=https://astra-noir.vercel.app
+NEXT_PUBLIC_SITE_URL=https://temporary-agile-ocarina-dafvy99.vercel.app
 ```
 
 ## License
