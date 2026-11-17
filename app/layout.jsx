@@ -1,24 +1,30 @@
-import { DM_Sans, Montserrat } from 'next/font/google';
+import localFont from 'next/font/local';
 import { SITE } from '../lib/site';
 import { BagProvider } from '../components/BagProvider';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import './globals.css';
 
-/* Self-hosted at build time by next/font. The original loaded these via an
-   @import inside the stylesheet, which chains three round trips before any
-   text can paint: CSS -> Google's CSS -> the font files themselves. */
-const body = DM_Sans({
-  subsets: ['latin'],
-  weight: ['300', '400', '500', '600'],
+/* Self-hosted from files committed in app/fonts (latin subset, variable
+   weight axis, SIL Open Font License). These used to come from
+   next/font/google, which downloads the fonts during every build; when
+   Google's response was unexpected the build failed at random. Local files
+   keep the build offline and deterministic. */
+const body = localFont({
+  src: './fonts/dm-sans-latin-var.woff2',
+  weight: '300 600',
+  style: 'normal',
   variable: '--font-body',
   display: 'swap',
+  fallback: ['system-ui', 'sans-serif'],
 });
-const display = Montserrat({
-  subsets: ['latin'],
-  weight: ['200', '300', '400', '500', '600'],
+const display = localFont({
+  src: './fonts/montserrat-latin-var.woff2',
+  weight: '200 600',
+  style: 'normal',
   variable: '--font-display',
   display: 'swap',
+  fallback: ['system-ui', 'sans-serif'],
 });
 
 export const metadata = {
